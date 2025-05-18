@@ -14,7 +14,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "Avoid's Those Who remain hub"
+gui.Name = "Avoid's TWR Hub"
 gui.Parent = player:WaitForChild("PlayerGui")
 
 -- Main Container
@@ -40,7 +40,7 @@ TitleBar.Font = Enum.Font.GothamBold
 TitleBar.TextSize = 18
 TitleBar.TextColor3 = Color3.fromRGB(246, 190, 255)
 TitleBar.TextStrokeTransparency = 0.7
-TitleBar.Text = "REXCORE"
+TitleBar.Text = "Avoid's TWR Hub"
 TitleBar.Position = UDim2.new(0,0,0,2)
 TitleBar.Active = true
 
@@ -74,10 +74,10 @@ do
 end
 
 local navSections = {
-    {icon="💥", label="Main", y=25},
-    {icon="️👀", label="Visual", y=60},
-    {icon="🧍", label="Player", y=95},
-    {icon="⚙️", label="Settings", y=385}
+    {icon="", label="Main", y=25},
+    {icon="️", label="Visual", y=60},
+    {icon="", label="Player", y=95},
+    {icon="⚙", label="Settings", y=385}
 }
 
 local NavBar = Instance.new("Frame")
