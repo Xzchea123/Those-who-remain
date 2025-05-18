@@ -14,7 +14,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "RexcoreUI"
+gui.Name = "Avoid's Those Who remain hub"
 gui.Parent = player:WaitForChild("PlayerGui")
 
 -- Main Container
@@ -75,7 +75,7 @@ end
 
 local navSections = {
     {icon="💥", label="Main", y=25},
-    {icon="🛡️", label="Visual", y=60},
+    {icon="️👀", label="Visual", y=60},
     {icon="🧍", label="Player", y=95},
     {icon="⚙️", label="Settings", y=385}
 }
